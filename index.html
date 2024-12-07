@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Integral de Triángulos</title>
     <link rel="stylesheet" href="css/dw.css">
+    <script defer src="js/dw.js"></script>
 </head>
 
 <body>
@@ -33,15 +34,15 @@
                             <input type="number" id="lado-c" placeholder="Ingrese valor">
                         </div>
                     </div>
-                    <button type="button">Calcular</button>
+                    <button type="button" id="calculate-btn">Calcular</button>
                 </form>
             </section>
             <section class="results-container">
-                <div class="results-button">Ángulos</div>
-                <div class="results-button">Medianas</div>
-                <div class="results-button">Bisectrices</div>
-                <div class="results-button">Alturas</div>
-                <div class="results-button">Perímetro y Área</div>
+                <div class="results-button" id="angles">Ángulos: </div>
+                <div class="results-button" id="medians">Medianas: </div>
+                <div class="results-button" id="bisectors">Bisectrices: </div>
+                <div class="results-button" id="heights">Alturas: </div>
+                <div class="results-button" id="perimeter-area">Perímetro y Área: </div>
             </section>
         </article>
     </div>
