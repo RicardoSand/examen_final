@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 2rem auto;
+    height: 700px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.9rem;
+  }
+  
+  article {
+    margin-bottom: 2rem;
+    display: flex;
+    height: 85%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: #2d1e1e;
+  }
+  
+  .header p {
+    font-size: 1rem;
+    color: #5bc5ef;
+  }
+  
+  .form-container {
+    display: block;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .triangle-form {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .triangle-form label {
+    width: 100%;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  #side-inputs {
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+  }
+  
+  .lado-cont {
+    width: 140px;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem
+  }
+  
+  .lado-cont input {
+    width: 150px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .triangle-form button {
+    width: 40%;
+    padding: 0.7rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .triangle-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .results-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+  
+  .results-button {
+    flex: 1 1 calc(50% - 0.7rem);
+    padding: 1rem;
+    background-color: #f1f1f1;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .results-button:hover {
+    background-color: #e0e0e0;
+  }
